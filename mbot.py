@@ -39,13 +39,3 @@ def mushroom(input):
             return comp2(PROMPT,MaxToken=300,outputs = 1)
     else:
         return comp2(PROMPT,MaxToken=300,outputs = 1)
-"""
-print("Hello World I am Mbot, your mushroom loving companion")
-while True:
-    enter = input("Please ask a question below and I will do my best to answer:\n")
-    if enter == "quit":
-        print("Goodbye")
-        break
-    else:
-        print(mushroom(enter))
-"""
